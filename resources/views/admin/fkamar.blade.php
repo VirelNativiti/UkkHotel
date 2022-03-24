@@ -14,22 +14,20 @@
           </ol>
         </div>
         <br>
-        <a class="btn btn-primary ml-4 mb-2" href="{{ url('fhotel/create') }}">Tambah</a>
+        <a class="btn btn-primary ml-4 mb-2" href="{{ url('fkamar/create') }}">Tambah</a>
         <table class="table-bordered table ml-4">
           <tr>
+            <th>Tipe Kamar</th>
             <th>Nama Fasilitas</th>
-            <th>Keterangan</th>
-            <th>Image</th>
             <th colspan="2">Aksi</th>
           </tr>
           @foreach ($datas as $key=>$value)
           <tr>
+            <td>{{ $value->tipe_kamar }}</td>
             <td>{{ $value->nama_fasilitas }}</td>
-            <td>{{ $value->keterangan }}</td>
-            <td>{{ $value->image }}</td>
-            <td><a class="btn btn-info" href="/fhotel/{{ $value->id }}/edit">Edit</a></td>
+            <td><a class="btn btn-info" href="/fkamar/{{ $value->id }}/edit">Edit</a></td>
             <td>
-              <form action="{{ url('fhotel/'.$value->id) }}" method="POST">
+              <form action="{{ url('fkamar/'.$value->id) }}" method="POST">
                 @csrf
                 <input type="hidden" name="_method" value="DELETE">
                 <button class="btn btn-danger" type="submit">Delete</button>

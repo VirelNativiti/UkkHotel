@@ -6,6 +6,7 @@ use App\Http\Controllers\FkamarController;
 use App\Http\Controllers\FhotelController;
 use App\Http\Controllers\ReservasiController;
 use App\Http\Controllers\KamarrController;
+use App\Http\Controllers\ResepsionisController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -32,6 +33,8 @@ Route::resource('/kamarr', 'KamarrController');
 // Route resepsionis
 Route::get('/resepsionis', 'ResepsionisController@index')->name('resepsionis');
 Route::get('/dtamu', 'DtamuController@index');
+Route::post('/resepsionis/filter', 'DtamuController@filter')->name('resepsionis.filter');
+Route::post('/resepsionis/search', 'DtamuController@search')->name('resepsionis.search');
 
 // Route login
 Auth::routes();

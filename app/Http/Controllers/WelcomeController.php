@@ -8,7 +8,7 @@ class WelcomeController extends Controller
 {
     public function index(){
         return view('tamu.indexx', [
-            "title" => "Tamu"
+            "title" => "Home"
         ]);
     }
 }

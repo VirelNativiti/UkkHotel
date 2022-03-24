@@ -3,7 +3,7 @@
 @section('konten')
 <div class="container-fluid bannerkamar">
 </div>
-<div class="container mt-5">
+<div class="container-fluid mt-5 mb-5">
     <div class="row">
         <div class="col">
             <form method="POST" action="{{ url('kamarr') }}">
@@ -29,7 +29,7 @@
                     </div>
                     <div class="col">
                         <p>
-                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample2">Pesan</button>
+                            <button class="btn btn-primary mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample2">Pesan</button>
                         </p>
                     </div>
                 </div>

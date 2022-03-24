@@ -8,7 +8,7 @@ class FasilitasController extends Controller
 {
     public function index(){
         return view('fasilitas', [
-            "title" => "Fasilitas"
+            "title" => "Facility"
         ]);
     }
 }

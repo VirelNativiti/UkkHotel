@@ -4,16 +4,17 @@
 <div class="container-fluid banner">
     <div class="container banner-content col-lg-6">
         <div class="text-center">
-            <header class="masthead text-center text-white">
-                <div class="masthead-content">
-                    <div class="container px-5">
-                        <h1 class="masthead-heading mb-0">One Click Wonder</h1>
-                        <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2><br>
-                        <p class="masthead-subheading mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sint facilis, voluptatum praesentium repudiandae libero saepe vero labore qui consequuntur sit facere corrupti tenetur delectus. Sapiente at facere delectus ratione!</p>
-                        <a href="{{ route('login') }}" class="btn btn-primary btn-xl rounded-pill mt-5"> Silahkan Daftar!!</a>
-                    </div>
-                </div>
-            </header>
+            <div>
+                <p class="fs-1">
+                    Welcome to Great Hotel
+                </p>
+                <p class="d-none d-sm-block">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Repellat, quod eum atque et, explicabo earum sit alias quas provident, 
+                    voluptate numquam. Delectus nisi architecto porro ex aspernatur alias, 
+                    voluptate eveniet!
+                </p>
+            </div>
         </div>
     </div>
 </div>
@@ -22,11 +23,11 @@
     <div class="container px-5">
         <div class="row gx-5 align-items-center">
             <div class="col-lg-6 order-lg-2">
-                <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/01.jpg" alt="..." /></div>
+                <div class="p-5"><img class="img-fluid" src="img/kamar.jpg" alt="..." /></div>
             </div>
             <div class="col-lg-6 order-lg-1">
                 <div class="p-5">
-                    <h2 class="display-4">For those about to rock...</h2>
+                    <h2 class="display-4">For those about to sleep...</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
                 </div>
             </div>
@@ -38,11 +39,11 @@
     <div class="container px-5">
         <div class="row gx-5 align-items-center">
             <div class="col-lg-6">
-                <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/02.jpg" alt="..." /></div>
+                <div class="p-5"><img class="img-fluid" src="img/kolam.jpg" alt="..." /></div>
             </div>
             <div class="col-lg-6">
                 <div class="p-5">
-                    <h2 class="display-4">We salute you!</h2>
+                    <h2 class="display-4">We make you feel better than at home</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
                 </div>
             </div>
@@ -54,11 +55,11 @@
     <div class="container px-5">
         <div class="row gx-5 align-items-center">
             <div class="col-lg-6 order-lg-2">
-                <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/03.jpg" alt="..." /></div>
+                <div class="p-5"><img class="img-fluid" src="img/hotel.jpg" alt="..." /></div>
             </div>
             <div class="col-lg-6 order-lg-1">
                 <div class="p-5">
-                    <h2 class="display-4">Let there be rock!</h2>
+                    <h2 class="display-4">Come, stay and enjoy your day.</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
                 </div>
             </div>

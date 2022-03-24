@@ -16,7 +16,7 @@
       </div>
       <div class="form-group pl-4">
         <label>Image :</label>
-        <input type="text" name="image" class="form-control">
+        <input type="file" name="image" class="form-control">
       </div>
       <button type="submit" class="btn btn-primary ml-4">Simpan</button>
     </form>

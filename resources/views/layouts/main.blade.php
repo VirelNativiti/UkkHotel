@@ -40,20 +40,20 @@
                         <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ ($title === "Tentang Kami") ? 'active' : '' }}" href="/about">Tentang Kami</a>
+                        <a class="nav-link {{ ($title === "About") ? 'active' : '' }}" href="/about">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ ($title === "Kontak Kami") ? 'active' : '' }}" href="/kontak">Kontak kami</a>
+                        <a class="nav-link {{ ($title === "Contact") ? 'active' : '' }}" href="/kontak">Contact us</a>
                     </li>
                     @if (Route::has('Register'))
                     <li class="nav-item">
-                        <a class="nav-link {{ ($title === "Beranda") ? 'active' : '' }}" href="/tamu">Beranda</a>
+                        <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" href="/tamu">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ ($title === "Kamar") ? 'active' : '' }}" href="/kamarr">Kamar</a>
+                        <a class="nav-link {{ ($title === "Room") ? 'active' : '' }}" href="/kamarr">Room</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ ($title === "Fasilitas") ? 'active' : '' }}" href="/fasilitas">Fasilitas</a>
+                        <a class="nav-link {{ ($title === "Facility") ? 'active' : '' }}" href="/fasilitas">Facility</a>
                     </li>
                     @endif
                     @else

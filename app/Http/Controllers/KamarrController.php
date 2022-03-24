@@ -16,7 +16,7 @@ class KamarrController extends Controller
     {
         $datas = Kamarr::all();
         return view('tamu.kamarr', compact('datas'), [
-            "title" => "Reservasi"
+            "title" => "Room"
         ]);
     }
 
