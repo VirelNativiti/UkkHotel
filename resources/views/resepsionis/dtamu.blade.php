@@ -5,31 +5,41 @@
 <section class="content-header">
     <div class="container-fluid">
         <div class="row mb-2">
-            <div class="col-sm-6">
+            <div class="col-sm-3">
                 <h1 class="ml-3">Data Tamu</h1> 
-                <div class="row">
                     <form action="{{ route('resepsionis.filter') }}" method="POST">
                     @csrf
-                        <div class="form-floating ml-4">
-                            <input type="date" name="filter" class="form-control" id="filter">
-                            <button type="submit" class="btn btn-primary mt-2">Filter</button>
+                        <div class="form-floating ml-3">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <input type="date" name="filter" class="form-control" id="filter">
+                                </div>
+                                <div class="col">
+                                    <button type="submit" class="btn btn-primary">Filter</button>
+                                </div>
+                            </div>
                         </div><br>
                     </form>
                     <form action="{{ route('resepsionis.search') }}" method="POST">
                     @csrf
-                        <div class="form-floating ml-4">
-                            <input type="text" name="search" class="form-control" id="search" placeholder="Nama Tamu">
-                            <button type="submit" class="btn btn-primary mt-2">Cari</button>
+                        <div class="form-floating ml-3">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <input type="text" name="search" class="form-control" id="search" placeholder="Nama Tamu">
+                                </div>
+                                <div class="col">
+                                    <button type="submit" class="btn btn-primary">Cari</button>
+                                </div>
+                            </div>
                         </div><br>
                     </form>
-                </div>
             </div>
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
                 </ol>
             </div>
             
-            <div class="col-sm-6">
+            <div class="col-md-">
                 <table class="table-bordered table ml-4">
                     <tr>
                         <th>Nama Tamu</th>
@@ -46,12 +56,12 @@
                 </table>
             </div>
         </div>
-    </div><!-- /.container-fluid -->
+    </div>
+    <a href="/resepsionis" class="btn btn-primary ml-4">Reset</a>
 </section>
 
 <!-- Main content -->
 <section class="content">
-    <button class="btn btn-primary" type="submit" style="position: right;"> <a href="/resepsionis"> </a> Button</button>
 </section>
 <!-- /.content -->
 @endsection

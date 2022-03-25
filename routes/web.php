@@ -7,6 +7,7 @@ use App\Http\Controllers\FhotelController;
 use App\Http\Controllers\ReservasiController;
 use App\Http\Controllers\KamarrController;
 use App\Http\Controllers\ResepsionisController;
+use App\Http\Controllers\LoginController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,7 +16,7 @@ use App\Http\Controllers\ResepsionisController;
 | Here is where you can register web routes for your application. These
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
-|
+| 
 */
 
 
@@ -40,7 +41,7 @@ Route::post('/resepsionis/search', 'DtamuController@search')->name('resepsionis.
 Auth::routes();
 Route::get('/login', [App\Http\Controllers\Auth\LoginController::class, 'index'])->name('login');
 Route::get('/register', [App\Http\Controllers\Auth\LoginController::class, 'indexx'])->name('register');
-Route::get('/dkamar', [App\Http\Controllers\DkamarController::class, 'index'])->name('dkamar');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 // Route Admin
 Route::resource('/dkamar', 'DkamarController');
