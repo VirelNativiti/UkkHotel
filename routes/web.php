@@ -40,7 +40,7 @@ Route::post('/resepsionis/search', 'DtamuController@search')->name('resepsionis.
 Auth::routes();
 Route::get('/login', [App\Http\Controllers\Auth\LoginController::class, 'index'])->name('login');
 Route::get('/register', [App\Http\Controllers\Auth\LoginController::class, 'indexx'])->name('register');
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/dkamar', [App\Http\Controllers\DkamarController::class, 'index'])->name('dkamar');
 
 // Route Admin
 Route::resource('/dkamar', 'DkamarController');

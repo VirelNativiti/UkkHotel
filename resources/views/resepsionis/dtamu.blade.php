@@ -12,21 +12,20 @@
                     @csrf
                         <div class="form-floating ml-4">
                             <input type="date" name="filter" class="form-control" id="filter">
-                            <button type="submit" class="btn btn-primary ml-4">Filter</button>
+                            <button type="submit" class="btn btn-primary mt-2">Filter</button>
                         </div><br>
                     </form>
                     <form action="{{ route('resepsionis.search') }}" method="POST">
                     @csrf
                         <div class="form-floating ml-4">
                             <input type="text" name="search" class="form-control" id="search" placeholder="Nama Tamu">
-                            <button type="submit" class="btn btn-primary ml-4">Cari</button>
+                            <button type="submit" class="btn btn-primary mt-2">Cari</button>
                         </div><br>
                     </form>
                 </div>
             </div>
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
                 </ol>
             </div>
             
@@ -52,7 +51,7 @@
 
 <!-- Main content -->
 <section class="content">
-
+    <button class="btn btn-primary" type="submit" style="position: right;"> <a href="/resepsionis"> </a> Button</button>
 </section>
 <!-- /.content -->
 @endsection

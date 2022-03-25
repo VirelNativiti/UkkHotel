@@ -28,8 +28,11 @@ class KamarrController extends Controller
     public function create()
     {
         $model = new Kamarr;
+        // $tipe_kamar = DB::table('tipe_kamar')
+        // ->get();
         return view('tamu.kamarr', compact('model'), [
-            "title" => "Reservasi"
+            "title" => "Reservasi",
+            // 'tipe_kamar' => "tipe kamar"
         ]);
     }
 

@@ -5,16 +5,11 @@
 <section class="content-header">
     <div class="container-fluid">
       <div class="row mb-2">
-        <div class="col-sm-6">
+        <div class="col">
           <h1 class="ml-3">Data Fasilitas Hotel</h1>
         </div>
-        <div class="col-sm-6">
-          <ol class="breadcrumb float-sm-right">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
-          </ol>
-        </div>
         <br>
-        <a class="btn btn-primary ml-4 mb-2" href="{{ url('fhotel/create') }}">Tambah</a>
+        <a class="btn btn-primary mb-2" href="{{ url('fhotel/create') }}">Tambah</a>
         <table class="table-bordered table ml-4">
           <tr>
             <th>Nama Fasilitas</th>

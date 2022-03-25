@@ -46,6 +46,9 @@
                         <a class="nav-link {{ ($title === "Contact") ? 'active' : '' }}" href="/kontak">Contact us</a>
                     </li>
                     @if (Route::has('Register'))
+                    
+                    @endif
+                    @else
                     <li class="nav-item">
                         <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" href="/tamu">Home</a>
                     </li>
@@ -54,18 +57,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ ($title === "Facility") ? 'active' : '' }}" href="/fasilitas">Facility</a>
-                    </li>
-                    @endif
-                    @else
-                    <li class="nav-item">
-                        <a class="nav-link {{ ($title === "Beranda") ? 'active' : '' }}" href="/tamu">Beranda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {{ ($title === "Kamar") ? 'active' : '' }}" href="/kamarr">Kamar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {{ ($title === "Fasilitas") ? 'active' : '' }}" href="/fasilitas">Fasilitas</a>
-                    </li>
+                    </li>   
                     @endguest
                 </ul>
                 <ul class="navbar-nav ms-auto">

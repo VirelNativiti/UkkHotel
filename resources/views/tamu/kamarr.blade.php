@@ -12,31 +12,31 @@
                     <div class="col">
                         <div class="form-floating">
                             <input type="date" name="tgl_checkin" class="form-control" id="tgl_checkin">
-                            <label for="floatingInputGrid">Tanggal Check In</label>
+                            <label for="floatingInputGrid">Check In</label>
                         </div>
                     </div>
                     <div class="col">
                         <div class="form-floating">
                             <input type="date" name="tgl_checkout" class="form-control" id="tgl_checkin">
-                            <label for="floatingInputGrid">Tanggal Check Out</label>
+                            <label for="floatingInputGrid">Check Out</label>
                         </div>
                     </div>
                     <div class="col">
                         <div class="form-floating">
                             <input type="number" name="jumlah_kamar" class="form-control" id="jumlah_kamar">
-                            <label for="floatingInputGrid">jumlah Kamar</label>
+                            <label for="floatingInputGrid">Number of rooms</label>
                         </div>
                     </div>
                     <div class="col">
                         <p>
-                            <button class="btn btn-primary mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample2">Pesan</button>
+                            <button class="btn btn-primary mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample2">Order</button>
                         </p>
                     </div>
                 </div>
 
                 <div class="collapse multi-collapse" id="multiCollapseExample1">
                     <div class="form-group pl-4 mb-3">
-                        <label>Nama Pemesan :</label>
+                        <label>Customer name :</label>
                         <input type="text" name="nama_pemesan" class="form-control" required>
                     </div>
                     <div class="form-group pl-4 mb-3">
@@ -44,22 +44,23 @@
                         <input type="text" name="email" class="form-control" required>
                     </div>
                     <div class="form-group pl-4 mb-3">
-                        <label>No Handphone :</label>
+                        <label>Mobile number :</label>
                         <input type="number" name="no_handphone" class="form-control" required>
                     </div>
                     <div class="form-group pl-4 mb-3">
-                        <label>Nama Tamu :</label>
+                        <label>Guest name :</label>
                         <input type="text" name="nama_tamu" class="form-control" required>
                     </div>
                     <div class="form-group pl-4 mb-3">
-                        <label>Tipe Kamar :</label>
+                        <label>Room Type :</label>
                         <select name="tipe_kamar" id="tipe_kamar" class="form-control">
-                            <option selected>Pilih Tipe Kamar</option>
+                            <option selected>Choose room type</option>
                             <option value="1">Deluxe</option>
                             <option value="2">Superior</option>
+                            
                         </select>
                     </div>
-                    <button type="submit" class="btn btn-primary ml-4">Simpan</button>
+                    <button type="submit" class="btn btn-primary ml-4">Save</button>
                 </div>
             </form>
         </div>
