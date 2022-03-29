@@ -39,5 +39,6 @@
   <section class="content">
 
   </section>
+  @include('sweetalert::alert')
   <!-- /.content -->    
 @endsection

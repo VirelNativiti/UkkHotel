@@ -15,7 +15,6 @@ class CreateDkamarsTable extends Migration
     {
         Schema::create('dkamars', function (Blueprint $table) {
             $table->id('id')->unique();
-            $table->string('nama_kamar');
             $table->string('tipe_kamar');
             $table->integer('jumlah_kamar');
             $table->timestamps();

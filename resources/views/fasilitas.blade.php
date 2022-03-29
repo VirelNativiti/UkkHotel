@@ -8,7 +8,7 @@
             <header class="masthead text-center text-white">
                 <div class="masthead-content">
                     <div class="container px-5">
-                        <h1 class="masthead-heading mb-0">Fasilitas</h1>
+                        <h1 class="masthead-heading mb-0">Facility</h1>
                     </div>
                 </div>
             </header>

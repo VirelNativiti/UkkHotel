@@ -9,7 +9,9 @@
       <input type="hidden" name="_method" value="PATCH">
       <div class="form-group pl-4">
         <label>Tipe Kamar :</label>
-        <input type="text" name="tipe_kamar" value="{{ $model->tipe_kamar }}" class="form-control">
+          <select name="tipe_kamar" id="tipe_kamar" class="form-control">
+            <option value="{{ $model->tipe_kamar }}">{{ $model->tipe_kamar }}</option>
+          </select>
       </div>
       <div class="form-group pl-4">
         <label>Nama Fasilitas :</label>
@@ -18,4 +20,5 @@
       <button type="submit" class="btn btn-primary ml-4">Simpan</button>
     </form>
   </div>
+  @include('sweetalert::alert')
 @endsection

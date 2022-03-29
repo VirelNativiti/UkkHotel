@@ -47,7 +47,7 @@ class FhotelController extends Controller
         $model->image = $request->image;
         $model->save();
 
-        return redirect('fhotel');
+        return redirect('fhotel')->with('toast_success', 'Berhasil Ditambahkan!!');
     }
 
     /**
@@ -84,13 +84,13 @@ class FhotelController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $model = Fkamar::find($id);
+        $model = Fhotel::find($id);
         $model->nama_fasilitas = $request->nama_fasilitas;
         $model->keterangan = $request->keterangan;
         $model->image = $request->image;
         $model->save();
 
-        return redirect('fhotel');
+        return redirect('fhotel')->with('toast_success', 'Berhasil Diedit!!');
     }
 
     /**
@@ -104,6 +104,6 @@ class FhotelController extends Controller
         $model = Fhotel::find($id);
         $model->delete();
 
-        return redirect('fhotel');
+        return redirect('fhotel')->with('toast_success', 'Berhasil Dihapus!!');
     }
 }

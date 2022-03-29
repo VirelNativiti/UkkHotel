@@ -22,4 +22,5 @@
       <button type="submit" class="btn btn-primary ml-4">Simpan</button>
     </form>
   </div>
+  @include('sweetalert::alert')
 @endsection

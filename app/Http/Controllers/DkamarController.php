@@ -42,12 +42,11 @@ class DkamarController extends Controller
     public function store(Request $request)
     {
         $model = new Dkamar;
-        $model->nama_kamar = $request->nama_kamar;
         $model->tipe_kamar = $request->tipe_kamar;
         $model->jumlah_kamar = $request->jumlah_kamar;
         $model->save();
 
-        return redirect('dkamar');
+        return redirect('dkamar')->with('toast_success', 'Berhasil Ditambahkan!!');
     }
 
     /**
@@ -85,12 +84,11 @@ class DkamarController extends Controller
     public function update(Request $request, $id)
     {
         $model = Dkamar::find($id);
-        $model->nama_kamar = $request->nama_kamar;
         $model->tipe_kamar = $request->tipe_kamar;
         $model->jumlah_kamar = $request->jumlah_kamar;
         $model->save();
 
-        return redirect('dkamar');
+        return redirect('dkamar')->with('toast_success', 'Berhasil Diedit!!');
     }
 
     /**
@@ -104,6 +102,6 @@ class DkamarController extends Controller
         $model = Dkamar::find($id);
         $model->delete();
 
-        return redirect('dkamar');
+        return redirect('dkamar')->with('toast_success', 'Berhasil Dihapus!!');
     }
 }

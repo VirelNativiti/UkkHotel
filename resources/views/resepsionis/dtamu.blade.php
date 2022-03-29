@@ -4,9 +4,8 @@
 <!-- Content Header (Page header) -->
 <section class="content-header">
     <div class="container-fluid">
-        <div class="row mb-2">
-            <div class="col-sm-3">
-                <h1 class="ml-3">Data Tamu</h1> 
+        <h1 style="margin-left: 30px;">Data Tamu</h1> 
+        <div class="row mb-2 ml-3">
                     <form action="{{ route('resepsionis.filter') }}" method="POST">
                     @csrf
                         <div class="form-floating ml-3">
@@ -39,7 +38,7 @@
                 </ol>
             </div>
             
-            <div class="col-md-">
+            <div class="col-sm-6">
                 <table class="table-bordered table ml-4">
                     <tr>
                         <th>Nama Tamu</th>

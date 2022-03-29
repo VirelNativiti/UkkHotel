@@ -12,14 +12,12 @@
         <a class="btn btn-primary mb-2" href="{{ url('dkamar/create') }}">Tambah</a>
         <table class="table-bordered table ml-4">
           <tr>
-            <th>Nama Kamar</th>
             <th>Tipe Kamar</th>
             <th>Jumlah Kamar</th>
             <th colspan="2">Aksi</th>
           </tr>
           @foreach ($datas as $key=>$value)
           <tr>
-            <td>{{ $value->nama_kamar }}</td>
             <td>{{ $value->tipe_kamar }}</td>
             <td>{{ $value->jumlah_kamar }}</td>
             <td><a class="btn btn-info" href="/dkamar/{{ $value->id }}/edit">Edit</a></td>
@@ -41,5 +39,6 @@
   <section class="content">
 
   </section>
+  @include('sweetalert::alert')
   <!-- /.content -->    
 @endsection

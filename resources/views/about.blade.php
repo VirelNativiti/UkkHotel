@@ -8,7 +8,7 @@
             <header class="masthead text-center text-white">
                 <div class="masthead-content">
                     <div class="container px-5">
-                        <h1 class="masthead-heading mb-0">Sebuah Perjalanan</h1>
+                        <h1 class="masthead-heading mb-0">A Journey</h1>
                     </div>
                 </div>
             </header>
@@ -43,17 +43,9 @@
                    <div class="profile-card">
                       <div class="card shadow border-light">
                          <div class="card-body">
-                            <h5 class="card-title">Tanislav Robert</h5>
-                            <h6 class="card-subtitle">Director</h6>
+                            <h5 class="card-title">Great Hotel</h5>
+                            <h6 class="card-subtitle">2012</h6>
                             <p class="card-text my-2">I spend my days with my hands in many different areas of web development from back end programming to front end engineering, digital accessibility, user experience and visual design.</p>
-                            <ul class="social-buttons mt-3">
-                               <li><a href="#" target="_blank" class="btn btn-link btn-facebook"><i class="fab fa-facebook-f"></i></a></li>
-                               <li><a href="#" target="_blank" class="btn btn-link btn-twitter"><i class="fab fa-twitter"></i></a></li>
-                               <li><a href="#" target="_blank" class="btn btn-link btn-slack"><i class="fab fa-slack-hash"></i></a></li>
-                               <li><a href="#" target="_blank" class="btn btn-link btn-dribbble"><i class="fab fa-dribbble"></i></a></li>
-                               <li><a href="#" target="_blank" class="btn btn-link btn-google-plus"><i class="fab fa-google-plus"></i></a></li>
-                               <li><a href="#" target="_blank" class="btn btn-link btn-dropbox"><i class="fab fa-dropbox"></i></a></li>
-                            </ul>
                          </div>
                       </div>
                    </div>
@@ -66,17 +58,9 @@
                    <div class="profile-card">
                       <div class="card shadow border-light">
                          <div class="card-body">
-                            <h5 class="card-title">Zoltan Szőgyényi</h5>
-                            <h6 class="card-subtitle">Founder</h6>
+                            <h5 class="card-title">Great Hotel</h5>
+                            <h6 class="card-subtitle">2012-2016</h6>
                             <p class="card-text my-2">I spend my days with my hands in many different areas of web development from back end programming to front end engineering, digital accessibility, user experience and visual design.</p>
-                            <ul class="social-buttons mt-3">
-                               <li><a href="#" target="_blank" class="btn btn-link btn-facebook"><i class="fab fa-facebook-f"></i></a></li>
-                               <li><a href="#" target="_blank" class="btn btn-link btn-twitter"><i class="fab fa-twitter"></i></a></li>
-                               <li><a href="#" target="_blank" class="btn btn-link btn-slack"><i class="fab fa-slack-hash"></i></a></li>
-                               <li><a href="#" target="_blank" class="btn btn-link btn-dribbble"><i class="fab fa-dribbble"></i></a></li>
-                               <li><a href="#" target="_blank" class="btn btn-link btn-google-plus"><i class="fab fa-google-plus"></i></a></li>
-                               <li><a href="#" target="_blank" class="btn btn-link btn-dropbox"><i class="fab fa-dropbox"></i></a></li>
-                            </ul>
                          </div>
                       </div>
                    </div>
@@ -119,17 +103,9 @@
                    <div class="profile-card">
                       <div class="card shadow border-light">
                          <div class="card-body">
-                            <h5 class="card-title">Calota Oana</h5>
-                            <h6 class="card-subtitle">Marketing</h6>
+                            <h5 class="card-title">Great Hotel</h5>
+                            <h6 class="card-subtitle">2016-2019</h6>
                             <p class="card-text my-2">I spend my days with my hands in many different areas of web development from back end programming to front end engineering, digital accessibility, user experience and visual design.</p>
-                            <ul class="social-buttons mt-3">
-                               <li><a href="#" target="_blank" class="btn btn-link btn-facebook"><i class="fab fa-facebook-f"></i></a></li>
-                               <li><a href="#" target="_blank" class="btn btn-link btn-twitter"><i class="fab fa-twitter"></i></a></li>
-                               <li><a href="#" target="_blank" class="btn btn-link btn-slack"><i class="fab fa-slack-hash"></i></a></li>
-                               <li><a href="#" target="_blank" class="btn btn-link btn-dribbble"><i class="fab fa-dribbble"></i></a></li>
-                               <li><a href="#" target="_blank" class="btn btn-link btn-google-plus"><i class="fab fa-google-plus"></i></a></li>
-                               <li><a href="#" target="_blank" class="btn btn-link btn-dropbox"><i class="fab fa-dropbox"></i></a></li>
-                            </ul>
                          </div>
                       </div>
                    </div>
@@ -142,17 +118,9 @@
                    <div class="profile-card">
                       <div class="card shadow border-light">
                          <div class="card-body">
-                            <h5 class="card-title">Lucian Tanislav</h5>
-                            <h6 class="card-subtitle">Sales</h6>
+                            <h5 class="card-title">Great Love</h5>
+                            <h6 class="card-subtitle">2019-Now</h6>
                             <p class="card-text my-2">I spend my days with my hands in many different areas of web development from back end programming to front end engineering, digital accessibility, user experience and visual design.</p>
-                            <ul class="social-buttons mt-3">
-                               <li><a href="#" target="_blank" class="btn btn-link btn-facebook"><i class="fab fa-facebook-f"></i></a></li>
-                               <li><a href="#" target="_blank" class="btn btn-link btn-twitter"><i class="fab fa-twitter"></i></a></li>
-                               <li><a href="#" target="_blank" class="btn btn-link btn-slack"><i class="fab fa-slack-hash"></i></a></li>
-                               <li><a href="#" target="_blank" class="btn btn-link btn-dribbble"><i class="fab fa-dribbble"></i></a></li>
-                               <li><a href="#" target="_blank" class="btn btn-link btn-google-plus"><i class="fab fa-google-plus"></i></a></li>
-                               <li><a href="#" target="_blank" class="btn btn-link btn-dropbox"><i class="fab fa-dropbox"></i></a></li>
-                            </ul>
                          </div>
                       </div>
                    </div>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request; 
 use App\Kamarr;
+use Illuminate\Support\Facades\DB;
 
 class KamarrController extends Controller
 {
@@ -28,11 +29,8 @@ class KamarrController extends Controller
     public function create()
     {
         $model = new Kamarr;
-        // $tipe_kamar = DB::table('tipe_kamar')
-        // ->get();
         return view('tamu.kamarr', compact('model'), [
-            "title" => "Reservasi",
-            // 'tipe_kamar' => "tipe kamar"
+            "title" => "Reservasi"
         ]);
     }
 
@@ -44,7 +42,12 @@ class KamarrController extends Controller
      */
     public function store(Request $request)
     {
-        
+        $awal = DB::table('dkamars')->where('tipe_kamar', $request->tipe_kamar)->value('jumlah_kamar');
+
+        DB::table('dkamars')->where('tipe_kamar', $request->tipe_kamar)->update([
+            'jumlah_kamar' => $awal - $request->jumlah_kamar
+        ]);
+       
         $model = new Kamarr;
         $model->nama_pemesan= $request->nama_pemesan;
         $model->email = $request->email;
@@ -56,7 +59,7 @@ class KamarrController extends Controller
         $model->tipe_kamar = $request->tipe_kamar;
         $model->save();
 
-        return redirect('kamarr');
+        return redirect('kamarr')->with('success', 'Order Successful!!');
     }
 
     /**

@@ -7,7 +7,7 @@
             <header class="masthead text-center text-white">
                 <div class="masthead-content">
                     <div class="container px-5">
-                        <h1 class="masthead-heading mb-0">Kontak Kami</h1>
+                        <h1 class="masthead-heading mb-0">Contact Us</h1>
                     </div>
                 </div>
             </header>
@@ -51,7 +51,7 @@
             <!-- has successfully submitted-->
             <div class="d-none" id="submitSuccessMessage">
                 <div class="text-center text-black mb-3">
-                    <div class="fw-bolder">Pesan anda sudah terkirim</div>
+                    <div class="fw-bolder">Your message sent</div>
                 </div>
             </div>
             <!-- Submit error message-->

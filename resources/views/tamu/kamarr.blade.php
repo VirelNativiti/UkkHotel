@@ -2,6 +2,17 @@
 
 @section('konten')
 <div class="container-fluid bannerkamar">
+    <div class="container banner-content col-lg-6">
+        <div class="text-center">
+            <header class="masthead text-center text-white">
+                <div class="masthead-content">
+                    <div class="container px-5">
+                        <h1 class="masthead-heading mb-0">Booking</h1>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
 </div>
 <div class="container-fluid mt-5 mb-5">
     <div class="row">
@@ -9,7 +20,7 @@
             <form method="POST" action="{{ url('kamarr') }}">
                 @csrf
                 <div class="row">
-                    <div class="col">
+                    <div class="col" style="margin-left: 200px;">
                         <div class="form-floating">
                             <input type="date" name="tgl_checkin" class="form-control" id="tgl_checkin">
                             <label for="floatingInputGrid">Check In</label>
@@ -32,9 +43,12 @@
                             <button class="btn btn-primary mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample2">Order</button>
                         </p>
                     </div>
-                </div>
+                </div><br>
 
                 <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="col">
+                        <h1>Form Pemesanan</h1>
+                    </div>
                     <div class="form-group pl-4 mb-3">
                         <label>Customer name :</label>
                         <input type="text" name="nama_pemesan" class="form-control" required>
@@ -55,9 +69,8 @@
                         <label>Room Type :</label>
                         <select name="tipe_kamar" id="tipe_kamar" class="form-control">
                             <option selected>Choose room type</option>
-                            <option value="1">Deluxe</option>
-                            <option value="2">Superior</option>
-                            
+                            <option value="Deluxe">Deluxe</option>
+                            <option value="Superior">Superior</option>
                         </select>
                     </div>
                     <button type="submit" class="btn btn-primary ml-4">Save</button>
@@ -66,6 +79,7 @@
         </div>
     </div>
 </div>
+@include('sweetalert::alert')
 <script>
     $('.collapse').collapse()
 </script>

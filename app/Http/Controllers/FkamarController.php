@@ -46,7 +46,7 @@ class FkamarController extends Controller
         $model->nama_fasilitas = $request->nama_fasilitas;
         $model->save();
 
-        return redirect('fkamar');
+        return redirect('fkamar')->with('toast_success', 'Berhasil Ditambahkan!!');
     }
 
     /**
@@ -88,7 +88,7 @@ class FkamarController extends Controller
         $model->nama_fasilitas = $request->nama_fasilitas;
         $model->save();
 
-        return redirect('fkamar');
+        return redirect('fkamar')->with('toast_success', 'Berhasil Diedit!!');
     }
 
     /**
@@ -102,6 +102,6 @@ class FkamarController extends Controller
         $model = Fkamar::find($id);
         $model->delete();
 
-        return redirect('fkamar');
+        return redirect('fkamar')->with('toast_success', 'Berhasil Dihapus!!');
     }
 }
