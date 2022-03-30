@@ -21,6 +21,28 @@ class KamarrController extends Controller
         ]);
     }
 
+    public function cetak()
+    {
+        $cetak = DB::table('kamarr')
+        ->where('email', auth()->user()->email)
+        ->get();
+        // dd($cetak);
+        return view('tamu.cetak', 
+            compact('cetak'), [
+            "title" => "Print"
+        ]);
+    }
+    public function pemesanan(Request $request)
+    {
+        $pemesanan = DB::table('kamarr')
+        ->where('id', $request->id)
+        ->get();
+        // dd($cetak);
+        return view('tamu.pemesanan', 
+            compact('pemesanan'), [
+            "title" => "Print"
+        ]);
+    }
     /**
      * Show the form for creating a new resource.
      *

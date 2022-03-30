@@ -21,12 +21,11 @@
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
     
-    <!-- lightbox -->
-    <link href ="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel = "stylesheet" crossorigin="anonymous">
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js" crossorigin="anonymous"></script>
-    
     <!-- My style -->
     <link rel="stylesheet" href="/css/style.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/img/logo.jpg">
 
     <title>Great Hotel | {{ $title }}</title>
 </head>
@@ -57,11 +56,14 @@
                         <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" href="/tamu">Home</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link {{ ($title === "Facility") ? 'active' : '' }}" href="/fasilitas">Facility</a>
+                    </li>   
+                    <li class="nav-item">
                         <a class="nav-link {{ ($title === "Room") ? 'active' : '' }}" href="/kamarr">Room</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ ($title === "Facility") ? 'active' : '' }}" href="/fasilitas">Facility</a>
-                    </li>   
+                        <a class="nav-link {{ ($title === "Print") ? 'active' : '' }}" href="/cetak">Print</a>
+                    </li>
                     @endguest
                 </ul>
                 <ul class="navbar-nav ms-auto">

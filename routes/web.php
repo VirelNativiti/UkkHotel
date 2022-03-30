@@ -30,6 +30,8 @@ Route::get('/kontak', 'KontakController@index');
 Route::get('/tamu', 'WelcomeController@index')->name('tamu');
 Route::get('/fasilitas', 'FasilitasController@index');
 Route::resource('/kamarr', 'KamarrController');
+Route::get('/cetak', 'KamarrController@cetak');
+Route::post('/pemesanan/{id}', 'KamarrController@pemesanan')->name('pemesanan');
 
 // Route resepsionis
 Route::get('/resepsionis', 'ResepsionisController@index')->name('resepsionis');
