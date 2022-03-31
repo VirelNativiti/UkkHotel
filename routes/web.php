@@ -28,7 +28,7 @@ Route::get('/kontak', 'KontakController@index');
 
 // Route Tamu Sesudah Login
 Route::get('/tamu', 'WelcomeController@index')->name('tamu');
-Route::get('/fasilitas', 'FasilitasController@index');
+Route::get('/fasilitas', 'FhotelController@fasilitas');
 Route::resource('/kamarr', 'KamarrController');
 Route::get('/cetak', 'KamarrController@cetak');
 Route::post('/pemesanan/{id}', 'KamarrController@pemesanan')->name('pemesanan');

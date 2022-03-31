@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 use App\Fhotel;
 
@@ -105,5 +106,16 @@ class FhotelController extends Controller
         $model->delete();
 
         return redirect('fhotel')->with('toast_success', 'Berhasil Dihapus!!');
+    }
+    public function fasilitas()
+    {
+        $image = DB::table('fhotels')->get();
+
+        // dd($image);
+
+        return view('tamu.fasilitas', [
+            "title" => "Facility",
+            "image" => $image,
+        ]);
     }
 }
