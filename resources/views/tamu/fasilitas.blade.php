@@ -23,22 +23,24 @@
             </header>
         </div>
     </div>
-</div>  
-<!-- End of Title -->
-@foreach ($image as $i)
-    <!-- <img src="img/{{ $i->image }}" alt="" height="100" width="100"> -->
-                    <div class="row-md-3">
-                        <div class="col">
-                            <div class="card mb-4 shadow-sm" style="border: 2px solid; border-color : #ef95b1; border-radius : 20px">
-                                <img width="100%" height="225" src="img/{{ $i->image }}" class="img-thumbnail" style="border-radius: 20px;
-                                border-bottom-right-radius: unset;
-                                border-bottom-left-radius: unset; padding : 0px" />
-                                <div class="card-body">
-                                    <h4 class="display-6">{{ $i->nama_fasilitas }}</h4>
-                                    <p class="card-text">{{ $i->keterangan }}</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+</div> <br> 
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+   @foreach ($image as $i)
+    <br>
+    <div class="row-md-3">
+        <div class="col">
+            <div class="card shadow-sm" style="border-color : black; border-radius : 20px">
+                <img src="img/{{ $i->image }}" class="img-thumbnail" style="border-radius: 20px;
+                border-bottom-right-radius: unset;
+                border-bottom-left-radius: unset; padding : 0px" />
+                <div class="card-body">
+                    <h4 class="display-6">{{ $i->nama_fasilitas }}</h4>
+                    <p class="card-text">{{ $i->keterangan }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
 @endforeach
+</div>
+<br>    
 @endsection

@@ -32,7 +32,7 @@
                       <div class="col"> </div>
                       <div class="col"> </div>
                    </div>
-                   <span class="m-3 avatar-separator"><img class="img-fluid organic-radius border-tertiary" src="https://demo.themesberg.com/pixel-pro/assets/img/team/9.jpg" alt="avatar"></span>
+                   <span class="m-3 avatar-separator"><i class="bi bi-emoji-smile"></i></span>
                    <div class="row h-50">
                       <div class="col middle-line"> </div>
                       <div class="col"> </div>
@@ -45,7 +45,7 @@
                          <div class="card-body">
                             <h5 class="card-title">Great Hotel</h5>
                             <h6 class="card-subtitle">2012</h6>
-                            <p class="card-text my-2">I spend my days with my hands in many different areas of web development from back end programming to front end engineering, digital accessibility, user experience and visual design.</p>
+                            <p class="card-text my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi blanditiis saepe eveniet esse laborum rerum iusto ullam voluptas labore quam accusantium soluta, commodi dolore sed praesentium iure deleniti non vero?</p>
                          </div>
                       </div>
                    </div>
@@ -60,7 +60,7 @@
                          <div class="card-body">
                             <h5 class="card-title">Great Hotel</h5>
                             <h6 class="card-subtitle">2012-2016</h6>
-                            <p class="card-text my-2">I spend my days with my hands in many different areas of web development from back end programming to front end engineering, digital accessibility, user experience and visual design.</p>
+                            <p class="card-text my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ducimus ratione dolor dicta libero quia magni facere fugit, harum, rerum, sequi quam neque? Dolorum odio accusamus exercitationem provident consectetur molestias.</p>
                          </div>
                       </div>
                    </div>
@@ -71,7 +71,7 @@
                       <div class="col middle-line"> </div>
                       <div class="col"> </div>
                    </div>
-                   <span class="m-3 avatar-separator"><img class="img-fluid organic-radius border-secondary" src="https://demo.themesberg.com/pixel-pro/assets/img/team/8.jpg" alt="avatar"></span>
+                   <span class="m-3 avatar-separator"><i class="bi bi-emoji-frown"></i></span>
                    <div class="row h-50">
                       <div class="col middle-line"> </div>
                       <div class="col"> </div>
@@ -92,7 +92,7 @@
                       <div class="col middle-line"> </div>
                       <div class="col"> </div>
                    </div>
-                   <span class="m-3 avatar-separator"><img class="img-fluid organic-radius border-warning" src="https://demo.themesberg.com/pixel-pro/assets/img/team/10.jpg" alt="avatar"></span>
+                   <span class="m-3 avatar-separator"><i class="bi bi-emoji-smile-upside-down"></i></span>
                    <div class="row h-50">
                       <div class="col middle-line"> </div>
                       <div class="col"> </div>
@@ -105,7 +105,7 @@
                          <div class="card-body">
                             <h5 class="card-title">Great Hotel</h5>
                             <h6 class="card-subtitle">2016-2019</h6>
-                            <p class="card-text my-2">I spend my days with my hands in many different areas of web development from back end programming to front end engineering, digital accessibility, user experience and visual design.</p>
+                            <p class="card-text my-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum eaque quo dignissimos ratione similique blanditiis praesentium? Dolor nobis non molestias quaerat reprehenderit tempora consequuntur expedita illum, earum esse explicabo totam?</p>
                          </div>
                       </div>
                    </div>
@@ -120,7 +120,7 @@
                          <div class="card-body">
                             <h5 class="card-title">Great Love</h5>
                             <h6 class="card-subtitle">2019-Now</h6>
-                            <p class="card-text my-2">I spend my days with my hands in many different areas of web development from back end programming to front end engineering, digital accessibility, user experience and visual design.</p>
+                            <p class="card-text my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse delectus, sapiente modi provident repellendus itaque quod molestiae! Recusandae asperiores atque dolorum, earum iusto tenetur cupiditate unde, alias natus culpa distinctio.</p>
                          </div>
                       </div>
                    </div>
@@ -131,7 +131,7 @@
                       <div class="col middle-line"> </div>
                       <div class="col"> </div>
                    </div>
-                   <span class="m-3 avatar-separator"><img class="img-fluid organic-radius border-info" src="https://demo.themesberg.com/pixel-pro/assets/img/team/6.jpg" alt="avatar"></span>
+                   <span class="m-3 avatar-separator"><i class="bi bi-emoji-sunglasses"></i></span>
                    <div class="row h-50">
                       <div class="col"> </div>
                       <div class="col"> </div>

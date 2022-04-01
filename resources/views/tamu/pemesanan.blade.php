@@ -33,7 +33,9 @@
     </script>
 </head>
 <body>
-<img src="public/img/logo.jpg" style="width: 50px; height: 50px;">
+  <div class="container" style="margin-left: 0;">
+    <img src="{{ asset('adminlte/img/logo.jpg') }}" style="width: 100px; height: 100px;">
+  </div>
 <h1 class="ml-3 text-center">Great Hotel</h1>
 <h5 class="ml-3 text-center">Room Reservation</h5>
     <table class="table-bordered table ml-4">

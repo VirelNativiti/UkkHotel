@@ -22,25 +22,25 @@
                 <div class="col-md-6">
                     <div class="form-group mb-2">
                         <!-- Name input-->
-                        <input class="form-control" id="name" type="text" placeholder="Nama Anda *" data-sb-validations="required" />
+                        <input class="form-control" id="name" type="text" placeholder="Your name *" data-sb-validations="required" />
                         <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                     </div>
                     <div class="form-group mb-2">
                         <!-- Email address input-->
-                        <input class="form-control" id="email" type="email" placeholder="Email Anda *" data-sb-validations="required,email" />
+                        <input class="form-control" id="email" type="email" placeholder="Your email *" data-sb-validations="required,email" />
                         <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                         <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                     </div>
                     <div class="form-group mb-md-0 mb-2">
                         <!-- Phone number input-->
-                        <input class="form-control" id="phone" type="tel" placeholder="No Handphone Anda *" data-sb-validations="required" />
+                        <input class="form-control" id="phone" type="tel" placeholder="Your phone number *" data-sb-validations="required" />
                         <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group form-group-textarea mb-md-0">
                         <!-- Message input-->
-                        <textarea class="form-control" id="message" placeholder="Pesan Anda *" data-sb-validations="required"></textarea>
+                        <textarea class="form-control" id="message" placeholder="Your message *" data-sb-validations="required"></textarea>
                         <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                     </div>
                 </div>

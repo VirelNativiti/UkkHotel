@@ -50,14 +50,6 @@
                with font-awesome or any other icon font library -->
           @if(Auth::user()->roles[0]['name'] == 'admin')
           <li class="nav-item">
-            <a href="/home" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
-              <p>
-                Dashboard
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
             <a href="/dkamar" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
