@@ -25,7 +25,7 @@
     <!-- My js -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     
-    <title>Document</title>
+    <title>{{ $pemesanan[0]->nama_tamu }}</title>
     <script type="text/javascript">
         {
             window.print()
@@ -38,21 +38,21 @@
   </div>
 <h1 class="ml-3 text-center">Great Hotel</h1>
 <h5 class="ml-3 text-center">Room Reservation</h5>
-    <table class="table-bordered table ml-4">
-              <tr>
-                <th>Guest Name</th>
-                <th>Check in</th>
-                <th>Check out</th>
-                <th>Room type</th>
-                <th>Number of rooms</th>
-              </tr>
-              <tr>
-                <td><div>{{ $pemesanan[0]->nama_tamu }}</div></td>
-                <td><div>{{ $pemesanan[0]->tgl_checkin }}</div</td>
-                <td><div>{{ $pemesanan[0]->tgl_checkout }}</div></td>
-                <td><div>{{ $pemesanan[0]->tipe_kamar}}</div></td>
-                <td><div>{{ $pemesanan[0]->jumlah_kamar }}</div></td>
-              </tr>
-            </table>
-    </body>
+  <table class="table-bordered table ml-4">
+    <tr>
+      <th>Guest Name</th>
+      <th>Check in</th>
+      <th>Check out</th>
+      <th>Room type</th>
+      <th>Number of rooms</th>
+    </tr>
+    <tr>
+      <td><div>{{ $pemesanan[0]->nama_tamu }}</div></td>
+      <td><div>{{ $pemesanan[0]->tgl_checkin }}</div</td>
+      <td><div>{{ $pemesanan[0]->tgl_checkout }}</div></td>
+      <td><div>{{ $pemesanan[0]->tipe_kamar}}</div></td>
+      <td><div>{{ $pemesanan[0]->jumlah_kamar }}</div></td>
+    </tr>
+  </table>
+</body>
 </html>

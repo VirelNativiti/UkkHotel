@@ -54,9 +54,9 @@
                     @endforeach
                 </table>
             </div>
+            <a href="/resepsionis" class="btn btn-primary ml-5">Reset</a>
         </div>
     </div>
-    <a href="/resepsionis" class="btn btn-primary ml-4">Reset</a>
 </section>
 
 <!-- Main content -->
