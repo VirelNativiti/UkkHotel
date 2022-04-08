@@ -79,6 +79,7 @@ class KamarrController extends Controller
         $model->nama_tamu = $request->nama_tamu;
         $model->jumlah_kamar = $request->jumlah_kamar;
         $model->tipe_kamar = $request->tipe_kamar;
+        $model->status = 'a';
         $model->save();
 
         return redirect('kamarr')->with('success', 'Order Successful!!');

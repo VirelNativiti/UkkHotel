@@ -19,8 +19,6 @@ use App\Http\Controllers\LoginController;
 | 
 */
 
-
-
 // Route Tamu Sebelum Login
 Route::get('/', 'TamuController@index');
 Route::get('/about', 'AboutController@index');
@@ -35,6 +33,12 @@ Route::post('/pemesanan/{id}', 'KamarrController@pemesanan')->name('pemesanan');
 
 // Route resepsionis
 Route::get('/resepsionis', 'ResepsionisController@index')->name('resepsionis');
+Route::post('/resepsionis/status/in/{id}', 'ResepsionisController@checkin');
+Route::post('/resepsionis/status/out/{id}', 'ResepsionisController@checkout');
+Route::post('/resepsionis/status/batal/{id}', 'ResepsionisController@batalkan');
+
+
+
 Route::get('/dtamu', 'DtamuController@index');
 Route::post('/resepsionis/filter', 'DtamuController@filter')->name('resepsionis.filter');
 Route::post('/resepsionis/search', 'DtamuController@search')->name('resepsionis.search');
@@ -48,4 +52,3 @@ Route::get('/register', [App\Http\Controllers\Auth\LoginController::class, 'inde
 Route::resource('/dkamar', 'DkamarController');
 Route::resource('/fkamar', 'FkamarController');
 Route::resource('/fhotel', 'FhotelController');
-

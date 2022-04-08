@@ -21,6 +21,7 @@ class CreateKamarrsTable extends Migration
             $table->string('nama_tamu');
             $table->string('tipe_kamar');
             $table->string('tgl_checkin');
+            $table->string('status');
             $table->string('tgl_checkout');
             $table->integer('jumlah_kamar');
             $table->timestamps();

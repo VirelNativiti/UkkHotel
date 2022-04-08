@@ -100,7 +100,7 @@
     <div class="float-right d-none d-sm-block">
       <b>God Plan</b> 
     </div>
-    <strong>Copyright &copy; 2022-2023 E-Hotel.</strong>
+    <strong>Copyright &copy; Great Hotel 2022.</strong>
   </footer>
 
   <!-- Control Sidebar -->

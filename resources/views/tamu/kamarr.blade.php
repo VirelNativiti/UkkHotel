@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('konten')
-<div class="container-fluid bannerkamar">
+<div class="container-fluid banner">
     <div class="container banner-content col-lg-6">
         <div class="text-center">
             <header class="masthead text-center text-white">
@@ -47,7 +47,7 @@
 
                 <div class="collapse multi-collapse" id="multiCollapseExample1">
                 <div class="col">
-                        <h1>Form Pemesanan</h1>
+                        <h1>Reservation Form</h1>
                     </div>
                     <div class="form-group pl-4 mb-3">
                         <label>Customer name :</label>
@@ -69,7 +69,7 @@
                         <label>Room Type :</label>
                         <select name="tipe_kamar" id="tipe_kamar" class="form-control">
                             <option selected>Choose room type</option>
-                            <option value="Deluxe">Deluxe</option>
+                            <option value="Deluxe">Deluxe </option>
                             <option value="Superior">Superior</option>
                         </select>
                     </div>

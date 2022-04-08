@@ -4,7 +4,7 @@
 <div class="container-fluid banner">
     <div class="container banner-content col-lg-6">
         <div class="text-center">
-            <div>
+                <img src="/img/logo.jpg" style="border-radius: 50%; border: 5px solid #eaeaea;">
                 <p class="fs-1">
                     Welcome to Great Hotel
                 </p>
@@ -14,14 +14,13 @@
                     voluptate numquam. Delectus nisi architecto porro ex aspernatur alias, 
                     voluptate eveniet!
                 </p>
-            </div>
         </div>
     </div>
 </div>
 <!-- Content section 1-->
 <section id="scroll">
     <div class="container px-5">
-        <div class="row gx-5 align-items-center">
+        <div class="row gx-5 align-items-center" data-aos="fade-left" data-aos-offset="350" data-aos-duration="1000">
             <div class="col-lg-6 order-lg-2">
                 <div class="p-5"><img class="img-fluid" src="img/kamar.jpg" alt="..." /></div>
             </div>
@@ -37,7 +36,7 @@
 <!-- Content section 2-->
 <section>
     <div class="container px-5">
-        <div class="row gx-5 align-items-center">
+        <div class="row gx-5 align-items-center" data-aos="fade-right" data-aos-offset="320" data-aos-duration="1000">
             <div class="col-lg-6">
                 <div class="p-5"><img class="img-fluid" src="img/kolam.jpg" alt="..." /></div>
             </div>
@@ -53,7 +52,7 @@
 <!-- Content section 3-->
 <section>
     <div class="container px-5">
-        <div class="row gx-5 align-items-center">
+        <div class="row gx-5 align-items-center" data-aos="fade-left" data-aos-offset="350" data-aos-duration="1000">
             <div class="col-lg-6 order-lg-2">
                 <div class="p-5"><img class="img-fluid" src="img/hotel.jpg" alt="..." /></div>
             </div>
@@ -70,7 +69,6 @@
 <div class="height">
     <h3 class="text-center scroll"></h3>
 </div>
-
 <script>
     $(document).ready(function() {
         $(window).scroll(function() {
@@ -88,6 +86,10 @@
             return false;
         });
     });
-
+</script>
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
+<script>
+    gsap.from('.text-center img', { duration: 2, rotateY: 360, opacity: 0})
 </script>
 @endsection

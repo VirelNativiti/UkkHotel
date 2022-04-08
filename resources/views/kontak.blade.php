@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('konten')
-<div class="container-fluid bannerkamar">
+<div class="container-fluid banner">
     <div class="container banner-content col-lg-6">
         <div class="text-center">
             <header class="masthead text-center text-white">

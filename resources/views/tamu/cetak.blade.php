@@ -8,7 +8,7 @@
             <th>Check out</th>
             <th>Room type</th>
             <th>Number of rooms</th>
-            <th colspan="2">Aksi</th>
+            <th colspan="2">Action</th>
           </tr>
           @foreach ($cetak as $key=>$value)
           <tr>

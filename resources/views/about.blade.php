@@ -40,7 +40,7 @@
                 </div>
                 <!-- timeline profile card -->
                 <div class="col-sm py-2">
-                   <div class="profile-card">
+                   <div class="profile-card" data-aos="flip-left" data-aos-offset="320" data-aos-duration="1000"> 
                       <div class="card shadow border-light">
                          <div class="card-body">
                             <h5 class="card-title">Great Hotel</h5>
@@ -54,7 +54,7 @@
              <!-- Timeline Item 2 -->
              <div class="row no-gutters">
                 <!-- timeline profile card -->
-                <div class="col-sm py-2">
+                <div class="col-sm py-2" data-aos="flip-right" data-aos-offset="320" data-aos-duration="2000">
                    <div class="profile-card">
                       <div class="card shadow border-light">
                          <div class="card-body">
@@ -100,7 +100,7 @@
                 </div>
                 <!-- timeline profile card -->
                 <div class="col-sm py-2">
-                   <div class="profile-card">
+                   <div class="profile-card" data-aos="flip-left" data-aos-offset="320" data-aos-duration="3000">
                       <div class="card shadow border-light">
                          <div class="card-body">
                             <h5 class="card-title">Great Hotel</h5>
@@ -115,7 +115,7 @@
              <div class="row no-gutters">
                 <!-- timeline profile card -->
                 <div class="col-sm py-2">
-                   <div class="profile-card">
+                   <div class="profile-card" data-aos="flip-left" data-aos-offset="320" data-aos-duration="4000">
                       <div class="card shadow border-light">
                          <div class="card-body">
                             <h5 class="card-title">Great Love</h5>
@@ -146,5 +146,28 @@
        </div>
     </div>
  </div>
- 
+ <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+<div class="height">
+    <h3 class="text-center scroll"></h3>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 20) {
+                $('#toTopBtn').fadeIn();
+            } else {
+                $('#toTopBtn').fadeOut();
+            }
+        });
+
+        $('#toTopBtn').click(function() {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 1000);
+            return false;
+        });
+    });
+
+</script>
 @endsection

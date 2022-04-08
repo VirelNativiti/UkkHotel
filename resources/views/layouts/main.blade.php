@@ -21,6 +21,9 @@
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
     
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My style -->
     <link rel="stylesheet" href="/css/style.css">
 
@@ -69,7 +72,7 @@
                 <ul class="navbar-nav ms-auto">
                     @guest
                     <li class="nav-item">
-                        <a href="/login" class="nav-link active btn btn-primary"><i class="bi bi-box-arrow-in-right"></i>&nbsp;Masuk</a>
+                        <a href="/login" class="nav-link active btn btn-primary"><i class="bi bi-box-arrow-in-right"></i>&nbsp;Login</a>
                     </li>
                     @if (Route::has('Register'))
                     @endif
@@ -90,20 +93,20 @@
     <!-- Footer-->
     <footer class="py-5 bg-black">
         <div class="container px-5">
-            <p class="m-0 text-center text-white small">Copyright &copy; Your Website 2021</p>
+            <p class="m-0 text-center text-white small">Copyright &copy; Great Hotel 2022</p>
         </div>
     </footer>
-     <!-- Core theme JS-->
-     <script src="js/scripts.js"></script>
-     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-     <!-- * *                               SB Forms JS                               * *-->
-     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!-- AOS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
