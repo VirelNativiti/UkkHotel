@@ -65,7 +65,7 @@
                 <span class="badge badge-info">sudah checkout</span></td>
                 @endif
                 @if ($r->status == 'd')
-                <span class="badge badge-secondary">dibatalkan</span></td>
+                <span class="badge badge-secondary">selesai</span></td>
                 @endif
                         </td>
                         
@@ -86,7 +86,7 @@
                         @if($r->status == 'a' || $r->status == 'b' || $r->status == 'c')
                         <form action="/resepsionis/status/batal/{{ $r->id }}" method="post">
                             {{ csrf_field() }}
-                            <input class="btn btn-secondary" type="submit" value="batalakan">
+                            <input class="btn btn-secondary" type="submit" value="selesai">
                         </form>
                         @endif
 
